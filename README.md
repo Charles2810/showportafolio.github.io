@@ -92,6 +92,6 @@ MIT License - Siéntete libre de usar este portafolio como base para el tuyo.
 ## 👤 Autor
 
 **Charles**
-- Portfolio: [tu-sitio.com](#)
-- GitHub: [@charles](#)
+- Portfolio: [https://charles2810.github.io/showportafolio.github.io/](https://charles2810.github.io/showportafolio.github.io/)
+- GitHub: [@Charles2810](https://github.com/Charles2810)
 - LinkedIn: [Charles](#)
