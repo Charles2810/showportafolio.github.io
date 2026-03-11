@@ -23,7 +23,7 @@ const Contact = () => {
   }
 
   return (
-    <section id="contacto" className="py-20 px-6 border-b border-black">
+    <section id="contacto" className="py-20 px-6 border-b border-black dark:border-white">
       <div className="container mx-auto max-w-4xl">
         <h2 className="text-4xl md:text-6xl font-bold mb-16 tracking-tight">
           CONTACTO
@@ -32,7 +32,7 @@ const Contact = () => {
         <div className="grid md:grid-cols-2 gap-12">
           <div>
             <h3 className="text-xl font-bold mb-4 uppercase tracking-wider">Trabajemos juntos</h3>
-            <p className="text-gray-700 mb-6">
+            <p className="text-gray-700 dark:text-gray-300 mb-6">
               ¿Tienes un proyecto en mente? Me encantaría escuchar sobre él. 
               Envíame un mensaje y conversemos sobre cómo puedo ayudarte.
             </p>
@@ -69,7 +69,7 @@ const Contact = () => {
                 value={formData.name}
                 onChange={handleChange}
                 required
-                className="w-full px-4 py-2 bg-white border border-black focus:outline-none focus:ring-2 focus:ring-black transition-all"
+                className="w-full px-4 py-2 bg-white dark:bg-black border border-black dark:border-white focus:outline-none focus:ring-2 focus:ring-black dark:focus:ring-white transition-all"
               />
             </div>
             
@@ -82,7 +82,7 @@ const Contact = () => {
                 value={formData.email}
                 onChange={handleChange}
                 required
-                className="w-full px-4 py-2 bg-white border border-black focus:outline-none focus:ring-2 focus:ring-black transition-all"
+                className="w-full px-4 py-2 bg-white dark:bg-black border border-black dark:border-white focus:outline-none focus:ring-2 focus:ring-black dark:focus:ring-white transition-all"
               />
             </div>
             
@@ -95,13 +95,13 @@ const Contact = () => {
                 onChange={handleChange}
                 required
                 rows="4"
-                className="w-full px-4 py-2 bg-white border border-black focus:outline-none focus:ring-2 focus:ring-black transition-all resize-none"
+                className="w-full px-4 py-2 bg-white dark:bg-black border border-black dark:border-white focus:outline-none focus:ring-2 focus:ring-black dark:focus:ring-white transition-all resize-none"
               ></textarea>
             </div>
             
             <button 
               type="submit"
-              className="w-full px-6 py-3 bg-black text-white hover:bg-gray-800 transition-all duration-300 uppercase tracking-wider"
+              className="w-full px-6 py-3 bg-black text-white dark:bg-white dark:text-black hover:opacity-80 transition-all duration-300 uppercase tracking-wider"
             >
               Enviar Mensaje
             </button>

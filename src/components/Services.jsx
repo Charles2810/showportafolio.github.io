@@ -23,7 +23,7 @@ const Services = () => {
   ]
 
   return (
-    <section id="servicios" className="py-20 px-6 border-b border-black">
+    <section id="servicios" className="py-20 px-6 border-b border-black dark:border-white">
       <div className="container mx-auto max-w-6xl">
         <h2 className="text-4xl md:text-6xl font-bold mb-16 tracking-tight">
           SERVICIOS
@@ -33,7 +33,7 @@ const Services = () => {
           {services.map((service, index) => (
             <div 
               key={index}
-              className="p-8 border border-black hover:bg-black hover:text-white transition-all duration-300"
+              className="p-8 border border-black dark:border-white hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-all duration-300"
             >
               <div className="text-4xl mb-4">{service.icon}</div>
               <h3 className="text-xl font-bold mb-3 uppercase tracking-wider">{service.title}</h3>

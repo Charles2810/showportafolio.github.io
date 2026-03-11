@@ -2,7 +2,7 @@ import { projectsData } from '../data/projectsData'
 
 const Projects = ({ onProjectClick }) => {
   return (
-    <section id="proyectos" className="py-20 px-6 border-b border-black">
+    <section id="proyectos" className="py-20 px-6 border-b border-black dark:border-white">
       <div className="container mx-auto max-w-6xl">
         <h2 className="text-4xl md:text-6xl font-bold mb-16 tracking-tight">
           PROYECTOS
@@ -12,10 +12,10 @@ const Projects = ({ onProjectClick }) => {
           {projectsData.map((project) => (
             <div 
               key={project.id}
-              className="group relative overflow-hidden border border-black hover:bg-black hover:text-white transition-all duration-300 cursor-pointer"
+              className="group relative overflow-hidden border border-black dark:border-white hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-all duration-300 cursor-pointer"
               onClick={() => onProjectClick(project)}
             >
-              <div className="aspect-video bg-gray-100 group-hover:bg-gray-900 flex items-center justify-center text-6xl transition-colors duration-300">
+              <div className="aspect-video bg-gray-100 dark:bg-gray-900 group-hover:bg-gray-900 dark:group-hover:bg-gray-100 flex items-center justify-center text-6xl transition-colors duration-300">
                 {project.icon}
               </div>
               

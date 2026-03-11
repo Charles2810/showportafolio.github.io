@@ -7,9 +7,13 @@
 }
 
 body {
-  @apply bg-white text-black font-mono;
+  @apply bg-white text-black font-mono transition-colors duration-300;
+}
+
+.dark body {
+  @apply bg-black text-white;
 }
 
 .section-divider {
-  @apply border-t border-black my-0;
+  @apply border-t border-black dark:border-white my-0;
 }

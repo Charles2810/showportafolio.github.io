@@ -3,9 +3,14 @@ const Footer = () => {
     <footer className="py-12 px-6">
       <div className="container mx-auto max-w-6xl">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-sm uppercase tracking-wider">
-            © 2024 CHARLES
-          </p>
+          <div className="flex items-center gap-3">
+            <div className="w-8 h-8 border-2 border-black dark:border-white flex items-center justify-center font-bold text-xs">
+              CY
+            </div>
+            <p className="text-sm uppercase tracking-wider">
+              © 2024 CHARLES YAÑEZ
+            </p>
+          </div>
           
           <div className="flex gap-6 text-sm uppercase tracking-wider">
             <a 
