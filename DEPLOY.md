@@ -15,7 +15,7 @@ git add .
 git commit -m "Initial commit: Portfolio de Charles"
 
 # Conectar con tu repositorio remoto
-git remote add origin https://github.com/TU-USUARIO/showrepository.github.io.git
+git remote add origin https://github.com/Charles2810/showportafolio.github.io.git
 
 # Subir los cambios
 git push -u origin main
@@ -29,7 +29,7 @@ git push -u origin main
 
 ### 2. Configurar GitHub Pages
 
-1. Ve a tu repositorio en GitHub: `https://github.com/TU-USUARIO/showrepository.github.io`
+1. Ve a tu repositorio en GitHub: `https://github.com/Charles2810/showportafolio.github.io`
 
 2. Haz clic en **Settings** (Configuración)
 
@@ -50,7 +50,7 @@ Puedes ver el progreso en la pestaña **Actions** de tu repositorio.
 
 Tu portafolio estará disponible en:
 ```
-https://TU-USUARIO.github.io/showrepository.github.io/
+https://charles2810.github.io/showportafolio.github.io/
 ```
 
 **Nota:** El despliegue puede tardar 2-5 minutos la primera vez.
@@ -80,7 +80,7 @@ El sitio se actualizará automáticamente.
 
 Verifica que `vite.config.js` tenga:
 ```javascript
-base: '/showrepository.github.io/',
+base: '/showportafolio.github.io/',
 ```
 
 ### Si quieres usar un dominio personalizado:
