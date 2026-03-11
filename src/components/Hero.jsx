@@ -33,14 +33,14 @@ const Hero = () => {
           </div>
         </div>
         <h1 className="text-5xl md:text-7xl font-bold mb-8 tracking-tight">
-          CHARLES YAÑEZ
+          CHARLES
         </h1>
         <p className="text-xl md:text-3xl mb-8 h-10 font-light">
           {displayText}
           <span className="animate-pulse">|</span>
         </p>
         <p className="text-base md:text-lg mb-12 uppercase tracking-widest text-gray-600 dark:text-gray-400">
-          Frontend Developer · UX/UI Designer
+          Full Stack Developer
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a 

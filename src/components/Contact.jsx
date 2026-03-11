@@ -39,19 +39,19 @@ const Contact = () => {
             
             <div className="space-y-4">
               <div className="flex items-center gap-3">
-                <span className="text-2xl">📧</span>
+                <i className="bi bi-envelope text-2xl"></i>
                 <a href="mailto:charles@example.com" className="hover:opacity-50 transition-opacity">
                   charles@example.com
                 </a>
               </div>
               <div className="flex items-center gap-3">
-                <span className="text-2xl">💼</span>
+                <i className="bi bi-linkedin text-2xl"></i>
                 <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="hover:opacity-50 transition-opacity">
                   LinkedIn
                 </a>
               </div>
               <div className="flex items-center gap-3">
-                <span className="text-2xl">🐙</span>
+                <i className="bi bi-github text-2xl"></i>
                 <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="hover:opacity-50 transition-opacity">
                   GitHub
                 </a>

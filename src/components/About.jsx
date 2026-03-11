@@ -1,20 +1,20 @@
 const About = () => {
   const education = [
     {
-      title: 'Ingeniería en Sistemas',
-      institution: 'Universidad Tecnológica',
-      year: '2018 - 2022'
+      title: 'Ingeniería de Sistemas',
+      institution: 'Universidad Privada Domingo Savio',
+      year: '8vo Semestre'
     },
     {
-      title: 'Certificación React Avanzado',
-      institution: 'Platzi',
-      year: '2023'
+      title: 'Bachiller en Humanidades',
+      institution: 'Santa Cruz, Bolivia',
+      year: 'Completado'
     }
   ]
 
   const skills = [
-    'React', 'JavaScript', 'TypeScript', 'Tailwind CSS',
-    'HTML5', 'CSS3', 'Git', 'Figma', 'UX/UI Design'
+    'Blazor (.NET)', 'Laravel (PHP)', 'HTML', 'CSS', 'JavaScript',
+    'C++', 'Python', 'SQL (MySQL)', 'Git', 'Scrum', 'Telerik UI', 'Hostinger'
   ]
 
   return (
@@ -26,31 +26,31 @@ const About = () => {
         
         <div className="grid md:grid-cols-2 gap-16">
           <div>
-            <h3 className="text-xl font-bold mb-4 uppercase tracking-wider">Mi Historia</h3>
             <div className="flex items-start gap-4 mb-6">
               <div className="w-16 h-16 border-2 border-black dark:border-white flex items-center justify-center font-bold text-xl flex-shrink-0">
                 CY
               </div>
               <div>
-                <h4 className="font-bold text-lg mb-2">Charles Yañez</h4>
-                <p className="text-sm text-gray-600 dark:text-gray-400">Frontend Developer</p>
+                <h4 className="font-bold text-lg mb-2">Charles</h4>
+                <p className="text-sm text-gray-600 dark:text-gray-400">Full Stack Developer</p>
               </div>
             </div>
             <p className="text-gray-700 dark:text-gray-300 mb-4 leading-relaxed">
-              Soy un desarrollador frontend apasionado por crear experiencias web 
-              excepcionales. Mi enfoque combina código limpio con diseño intuitivo 
-              para construir aplicaciones que no solo funcionan bien, sino que también 
-              se ven increíbles.
+              Estudiante de 8vo semestre de Ingeniería de Sistemas con sólida base técnica en 
+              desarrollo Full Stack. Experiencia práctica en entornos institucionales y proyectos 
+              independientes utilizando Blazor y Laravel.
             </p>
             <p className="text-gray-700 dark:text-gray-300 leading-relaxed">
-              Me especializo en React y diseño UX/UI, siempre buscando la mejor 
-              manera de resolver problemas complejos con soluciones elegantes y 
-              centradas en el usuario.
+              Capacidad demostrada para la resolución de problemas mediante la creación de APIs 
+              y sistemas de gestión. Experiencia en metodologías ágiles (Scrum) y despliegue de 
+              aplicaciones en producción.
             </p>
           </div>
 
           <div>
-            <h3 className="text-xl font-bold mb-4 uppercase tracking-wider">Educación</h3>
+            <h3 className="text-xl font-bold mb-4 uppercase tracking-wider">
+              <i className="bi bi-mortarboard mr-2"></i>Educación
+            </h3>
             <div className="space-y-4 mb-8">
               {education.map((edu, index) => (
                 <div key={index} className="border-l-2 border-black dark:border-white pl-4">
@@ -61,7 +61,9 @@ const About = () => {
               ))}
             </div>
 
-            <h3 className="text-xl font-bold mb-4 uppercase tracking-wider">Habilidades</h3>
+            <h3 className="text-xl font-bold mb-4 uppercase tracking-wider">
+              <i className="bi bi-tools mr-2"></i>Habilidades Técnicas
+            </h3>
             <div className="flex flex-wrap gap-2">
               {skills.map((skill, index) => (
                 <span 

@@ -8,7 +8,7 @@ const Footer = () => {
               CY
             </div>
             <p className="text-sm uppercase tracking-wider">
-              © 2024 CHARLES YAÑEZ
+              © 2024 CHARLES
             </p>
           </div>
           
@@ -17,25 +17,23 @@ const Footer = () => {
               href="https://github.com" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="hover:opacity-50 transition-opacity"
+              className="hover:opacity-50 transition-opacity flex items-center gap-2"
             >
-              GitHub
+              <i className="bi bi-github"></i> GitHub
             </a>
             <a 
               href="https://linkedin.com" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="hover:opacity-50 transition-opacity"
+              className="hover:opacity-50 transition-opacity flex items-center gap-2"
             >
-              LinkedIn
+              <i className="bi bi-linkedin"></i> LinkedIn
             </a>
             <a 
-              href="https://twitter.com" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="hover:opacity-50 transition-opacity"
+              href="mailto:charles@example.com" 
+              className="hover:opacity-50 transition-opacity flex items-center gap-2"
             >
-              Twitter
+              <i className="bi bi-envelope"></i> Email
             </a>
           </div>
         </div>

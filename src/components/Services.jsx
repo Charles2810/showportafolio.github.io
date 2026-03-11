@@ -1,24 +1,24 @@
 const Services = () => {
   const services = [
     {
-      icon: '🎨',
-      title: 'Diseño UX/UI',
-      description: 'Creo interfaces intuitivas y atractivas centradas en la experiencia del usuario, desde wireframes hasta prototipos interactivos.'
+      icon: 'bi-code-slash',
+      title: 'Desarrollo Full Stack',
+      description: 'Desarrollo aplicaciones web completas usando Blazor (.NET), Laravel (PHP) y tecnologías modernas tanto en frontend como backend.'
     },
     {
-      icon: '⚛️',
-      title: 'Desarrollo React',
-      description: 'Desarrollo aplicaciones web modernas y escalables usando React, con código limpio y mejores prácticas.'
+      icon: 'bi-database',
+      title: 'APIs y Bases de Datos',
+      description: 'Diseño e implementación de APIs RESTful y gestión de bases de datos SQL (MySQL) para sistemas robustos y escalables.'
     },
     {
-      icon: '📱',
-      title: 'Diseño Responsivo',
-      description: 'Garantizo que tus aplicaciones se vean y funcionen perfectamente en cualquier dispositivo y tamaño de pantalla.'
+      icon: 'bi-git',
+      title: 'Control de Versiones',
+      description: 'Experiencia con Git para control de versiones, trabajo colaborativo y despliegue de proyectos en entornos de producción.'
     },
     {
-      icon: '⚡',
-      title: 'Optimización',
-      description: 'Mejoro el rendimiento de aplicaciones web para tiempos de carga rápidos y experiencias fluidas.'
+      icon: 'bi-kanban',
+      title: 'Metodologías Ágiles',
+      description: 'Trabajo bajo metodología Scrum, con presentación de avances semanales y gestión eficiente de proyectos.'
     }
   ]
 
@@ -35,7 +35,7 @@ const Services = () => {
               key={index}
               className="p-8 border border-black dark:border-white hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black transition-all duration-300"
             >
-              <div className="text-4xl mb-4">{service.icon}</div>
+              <i className={`${service.icon} text-4xl mb-4 block`}></i>
               <h3 className="text-xl font-bold mb-3 uppercase tracking-wider">{service.title}</h3>
               <p className="opacity-80">{service.description}</p>
             </div>
