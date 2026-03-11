@@ -21,31 +21,31 @@ const Hero = () => {
   return (
     <section 
       id="inicio" 
-      className="min-h-screen flex items-center justify-center pt-20 px-6"
+      className="min-h-screen flex items-center justify-center pt-20 px-6 border-b border-black"
     >
       <div className="text-center max-w-4xl">
-        <h1 className="text-5xl md:text-7xl font-bold mb-6">
-          Hola, soy <span className="text-primary">Charles</span>
+        <h1 className="text-6xl md:text-8xl font-bold mb-8 tracking-tight">
+          CHARLES
         </h1>
-        <p className="text-xl md:text-2xl text-gray-400 mb-8 h-8">
+        <p className="text-xl md:text-3xl mb-8 h-10 font-light">
           {displayText}
           <span className="animate-pulse">|</span>
         </p>
-        <p className="text-lg md:text-xl text-gray-300 mb-12">
-          Desarrollador Frontend especializado en React y diseño UX/UI
+        <p className="text-base md:text-lg mb-12 uppercase tracking-widest text-gray-600">
+          Frontend Developer · UX/UI Designer
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a 
             href="#proyectos"
-            className="px-8 py-3 bg-primary hover:bg-primary/80 rounded-lg transition-all duration-300 transform hover:scale-105"
+            className="px-8 py-3 bg-black text-white hover:bg-gray-800 transition-all duration-300"
           >
-            Ver Proyectos
+            VER PROYECTOS
           </a>
           <a 
             href="#contacto"
-            className="px-8 py-3 border-2 border-primary hover:bg-primary/10 rounded-lg transition-all duration-300"
+            className="px-8 py-3 border-2 border-black hover:bg-black hover:text-white transition-all duration-300"
           >
-            Contactar
+            CONTACTAR
           </a>
         </div>
       </div>

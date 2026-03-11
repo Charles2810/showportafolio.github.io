@@ -1,18 +1,18 @@
 const Footer = () => {
   return (
-    <footer className="py-8 px-6 border-t border-slate-800">
+    <footer className="py-12 px-6">
       <div className="container mx-auto max-w-6xl">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-          <p className="text-gray-400">
-            © 2024 <span className="text-primary">Charles</span>. Todos los derechos reservados.
+          <p className="text-sm uppercase tracking-wider">
+            © 2024 CHARLES
           </p>
           
-          <div className="flex gap-6">
+          <div className="flex gap-6 text-sm uppercase tracking-wider">
             <a 
               href="https://github.com" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="hover:text-primary transition-colors"
+              className="hover:opacity-50 transition-opacity"
             >
               GitHub
             </a>
@@ -20,7 +20,7 @@ const Footer = () => {
               href="https://linkedin.com" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="hover:text-primary transition-colors"
+              className="hover:opacity-50 transition-opacity"
             >
               LinkedIn
             </a>
@@ -28,7 +28,7 @@ const Footer = () => {
               href="https://twitter.com" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="hover:text-primary transition-colors"
+              className="hover:opacity-50 transition-opacity"
             >
               Twitter
             </a>

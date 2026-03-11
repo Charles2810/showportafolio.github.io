@@ -23,15 +23,13 @@ const Header = () => {
   return (
     <header 
       className={`fixed top-0 w-full z-50 transition-all duration-300 ${
-        isScrolled ? 'bg-dark/95 backdrop-blur-sm shadow-lg' : 'bg-transparent'
+        isScrolled ? 'bg-white/95 backdrop-blur-sm border-b border-black' : 'bg-white'
       }`}
     >
       <nav className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <a href="#inicio" className="text-2xl font-bold">
-            <span className="text-primary">&lt;</span>
-            Charles
-            <span className="text-primary">/&gt;</span>
+          <a href="#inicio" className="text-2xl font-bold tracking-tight">
+            CHARLES
           </a>
 
           {/* Desktop Menu */}
@@ -40,7 +38,7 @@ const Header = () => {
               <li key={link.href}>
                 <a 
                   href={link.href}
-                  className="hover:text-primary transition-colors duration-300"
+                  className="hover:opacity-50 transition-opacity duration-300 uppercase text-sm tracking-wider"
                 >
                   {link.label}
                 </a>
@@ -64,7 +62,7 @@ const Header = () => {
               <li key={link.href}>
                 <a 
                   href={link.href}
-                  className="block hover:text-primary transition-colors duration-300"
+                  className="block hover:opacity-50 transition-opacity duration-300 uppercase text-sm tracking-wider"
                   onClick={() => setIsMobileMenuOpen(false)}
                 >
                   {link.label}

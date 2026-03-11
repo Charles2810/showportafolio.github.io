@@ -7,5 +7,9 @@
 }
 
 body {
-  @apply bg-dark text-light font-mono;
+  @apply bg-white text-black font-mono;
+}
+
+.section-divider {
+  @apply border-t border-black my-0;
 }

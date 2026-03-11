@@ -10,10 +10,13 @@ export default {
         mono: ['Fira Code', 'Courier New', 'monospace'],
       },
       colors: {
-        primary: '#6366f1',
-        secondary: '#8b5cf6',
-        dark: '#0f172a',
-        light: '#f1f5f9',
+        primary: '#000000',
+        secondary: '#ffffff',
+        dark: '#000000',
+        light: '#ffffff',
+        gray: {
+          850: '#1a1a1a',
+        }
       },
     },
   },
